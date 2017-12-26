@@ -26,5 +26,9 @@ def m_T_or_F():
 	answer = 3 * x + 5 * y - 15 * xy
 	print(int(answer))
 
+	'''
+	A lot faster than using a loop, O(1) instead of O(n)
+	'''
+
 	
 m_T_or_F()
